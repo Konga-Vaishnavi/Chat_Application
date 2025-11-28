@@ -5,6 +5,3 @@ console.log("from vaagdevi college")
 console.log("B.Tech")
 console.log("3rd year")
 
-
-
-console.log("Nope")
