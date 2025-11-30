@@ -4,6 +4,8 @@
         background: hsl(180, 2%, 9%); 
         display: flex;
         justify-content: center;
+        background: #3d4143; 
+        font-family: Arial;
     }
 
     
@@ -28,7 +30,7 @@
         z-index: 10;
     }
 
-    .header h2 {
+    .header-h2 {
         color: #232020;
         margin: 2px;
         font-size:25px;
@@ -43,6 +45,7 @@
         gap: 15px;
         cursor: pointer;
         border-bottom: 1px solid #e0e5e5;
+        height: 40px;
     }
 
     .chat-box:hover {
@@ -62,13 +65,13 @@
         flex: 1;
     }
 
-    .chat-info h4 {
+    .chat-info-h4 {
         margin: 0;
         color: #040404;
         font-size: 17px;
     }
 
-    .chat-info p {
+    .chat-info-p {
         margin: 4px 0 0;
         color: #25596a;
         font-size: 14px;
@@ -79,13 +82,7 @@
         font-size: 12px;
         white-space: nowrap;
     }
-
-body {
-    background: #3d4143; 
-    font-family: Arial;
-}
-
-.wa-tabs {
+   .wa-tabs {
     display: flex;
     gap: 10px;
     padding: 20px;
@@ -135,7 +132,7 @@ body {
 
 }
 
-  .chat-header {
+ .chat-header {
     position: relative;
     padding: 20px;
     background: #fff;
