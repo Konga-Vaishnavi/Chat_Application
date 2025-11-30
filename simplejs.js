@@ -3,9 +3,9 @@ console.log("Iam Vaishnavi")
 console.log("CSM")
 console.log("from vaagdevi college")
 console.log("B.Tech")
-<<<<<<< Updated upstream
-=======
-console.log("nexgen problem")
+
+console.log("3rd year")
+console.log("warangal")
+console.log("hanamkonada")
 
 
->>>>>>> Stashed changes
