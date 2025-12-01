@@ -26,7 +26,17 @@
         About:
         <input type="text" name="about" style="width: 275px; height: 75px;"/><br><br>
         <button type="cancel">reset</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <button type="register">submit</button>
-    </form>  
+        <button type="register" id="clicked">submit</button>
+    </form> 
+    <script>
+        function click()
+        {
+            alert("Form Submitted");
+        }
+
+        const submit =document.getElementById("clicked");
+        submit.addEventListener("click",click);
+    </script> 
 </body>
+
 </html>
